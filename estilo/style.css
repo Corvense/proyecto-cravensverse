@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Rubik Doodle Shadow;
+    font-weight: bolder;
+    background-color: #040D12;
+
+}
+
+body h1:hover,
+body h2:hover,
+body h3:hover {
+    color: red;
+}
+
+/* aca trabajamos el titulo y las imagenes que actuan como logo, audio y video */
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.849);
+    text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+    display: flex;
+    bottom: 10cm;
+    justify-content: center;
+}
+
+header img {
+    width: 150px;
+    padding: 2vw;
+}
+
+header li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.849);
+    background-color: rgba(0, 0, 0, 0.849);
+
+}
+
+.videologo {
+    width: 17vw;
+}
+
+/* aca doy formato a todos los titulos de la pagina segun mis necesidades */
+
+h1 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding: 2vw;
+}
+
+
+h2 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    padding: 2vw;
+}
+
+h3 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 2vw;
+}
+
+h4 {
+    color: #93B1A6;
+    text-align: left;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 2vw;
+}
+
+/* Aca damos formato a los links de las html */
+
+.listamenu {
+    background-color: #183D3D;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    color: #93B1A6;
+    font-size: 20px;
+    text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px
+}
+
+.link:hover {
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    padding: 1vw;
+}
+
+/* Aca trabajamos el formato de los textos de la pagina */
+
+.cuento {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: #93B1A6;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/*Aca trabajamos todo el material de bienvenida en index */
+
+.bienvenida {
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenida img:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.texto-bienvenida {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 5vw;
+    color: #93B1A6;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+
+/* Aca damos forma y trabajamos los contenedores y los cuentos en index */
+
+.cuentodespertar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.cuentodespertar img:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.cuentoanciano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.cuentoanciano img:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+}
+
+/* Aca damos forma al footer de los html */
+
+footer img {
+    width: 150px;
+    padding: 2vw;
+}
+
+footer {
+    background-color: #183D3D;
+    display: flex;
+    margin: 1vw;
+    justify-content: center;
+}
+
+/* Aca trabajo los divs de los capitulos completos incluidas las imagenes */
+
+.capdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.capdiv img {
+    width: 550px;
+}
+
+.capdiv img:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+/* Aca tenemos las imagenes del formulario de contacto, le dan el tamaño y la opacidad cuando se pasa el mouse por encima */
+
+.imgcontacto {
+    width: 550px;
+
+}
+
+.imgcontacto:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+/* Estos son los estilos de la caja del formulario de contacto */
+
+label {
+    color: #93B1A6;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 5px;
+
+}
+
+
+input {
+    background-color: #183D3D;
+    color: white;
+    font-size: 1.8rem;
+    margin: 5px;
+}
+
+textarea {
+    background-color: #183D3D;
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* Aca tenemos el contenedor del formulario y las imagenes que lo centran en pantalla */
+
+.formulario-despedida {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario-despedida>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.formulario {
+    max-width: 300px;
+}
+
+.botonformulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Este es el estilo de los contenedores de imagenes del page Galaxia */
+
+.grillaimg {
+    display: flex;
+    justify-content: center;
+}
+
+.grillaimg img {
+    width: 550px;
+    padding: 20px;
+}
+
+/* Estos son los estilos de los contenedores de los inframes de youtube */
+
+.publicidad-facebook {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inframeterror {
+    padding: 50px;
+}
+
+
+/* Aqui tenemos el Media Quaries para acomodar a pantalla de celular la pagina de Contacto y Cuento 2*/
+
+@media only screen and (max-width: 480px) {
+
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .videologo {
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .logos {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 3rem;
+
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    .capdiv img {
+        width: 300px;
+    }
+
+    .formulario-despedida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario-despedida>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .formulario {
+        max-width: auto;
+    }
+
+    .formulario-despedida img {
+        width: 250px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
