@@ -302,7 +302,7 @@ textarea {
 
 /* Aqui tenemos el Media Quaries para acomodar a pantalla de celular la pagina de Contacto y Cuento 2*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 348px) {
 
     .titulo {
         display: flex;
