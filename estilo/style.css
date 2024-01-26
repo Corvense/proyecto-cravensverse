@@ -130,7 +130,7 @@ h4 {
 /* Aca trabajamos el formato de los textos de la pagina */
 
 .cuento {
-    max-width: 85%;
+    max-width: 90%;
     color: #93B1A6;
     font-size: 1.0rem;
     text-align: left;
@@ -165,7 +165,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: left;
-    max-width: 85%;
+
 }
 
 .cuentodespertar img:hover {
@@ -178,7 +178,6 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: left;
-    max-width: 85%;
 }
 
 .cuentoanciano img:hover {
@@ -347,7 +346,7 @@ textarea {
     }
 
     .cuento {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     .formulario-despedida {
