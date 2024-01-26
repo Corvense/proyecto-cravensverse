@@ -140,7 +140,7 @@ h4 {
 
 .bienvenida {
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 .bienvenida img:hover {
