@@ -140,7 +140,7 @@ h4 {
 
 .bienvenida {
     display: flex;
-    justify-content: center;
+    text-align: left;
 }
 
 .bienvenida img:hover {
@@ -155,34 +155,6 @@ h4 {
     color: #93B1A6;
     font-size: 1.5rem;
     text-align: left;
-}
-
-
-/* Aca damos forma y trabajamos los contenedores y los cuentos en index */
-
-.cuentodespertar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-
-}
-
-.cuentodespertar img:hover {
-    opacity: 0.5;
-    transition: opacity 0.3s ease;
-}
-
-.cuentoanciano {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-}
-
-.cuentoanciano img:hover {
-    opacity: 0.5;
-    transition: opacity 0.2s ease;
 }
 
 /* Aca damos forma al footer de los html */
