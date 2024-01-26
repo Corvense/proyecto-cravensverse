@@ -136,7 +136,7 @@ h4 {
     padding-bottom: 2vw;
     color: #93B1A6;
     font-size: 1.0rem;
-
+    text-align: left;
 }
 
 /*Aca trabajamos todo el material de bienvenida en index */
@@ -156,8 +156,8 @@ h4 {
     padding-right: 25vw;
     padding-top: 5vw;
     color: #93B1A6;
-    font-size: 2.5rem;
-    
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 
@@ -167,7 +167,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    text-align: left;
 }
 
 .cuentodespertar img:hover {
@@ -179,7 +179,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    text-align: left;
 }
 
 .cuentoanciano img:hover {
@@ -207,7 +207,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    text-align: left;
 }
 
 .capdiv img {
