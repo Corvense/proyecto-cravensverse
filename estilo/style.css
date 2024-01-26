@@ -6,7 +6,6 @@ html {
 
 body {
     font-family: Kaushan Script;
-    font-weight: bolder;
     background-color: #040D12;
 
 }
@@ -61,26 +60,29 @@ header li {
 h1 {
     color: #93B1A6;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     padding: 2vw;
+    font-weight: bolder;
 }
 
 
 h2 {
     color: #93B1A6;
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 4.0rem;
     text-transform: uppercase;
     padding: 2vw;
+    font-weight: bolder;
 }
 
 h3 {
     color: #93B1A6;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     text-transform: uppercase;
     padding: 2vw;
+    font-weight: bolder;
 }
 
 h4 {
@@ -89,6 +91,7 @@ h4 {
     font-size: 2.5rem;
     text-transform: uppercase;
     padding: 2vw;
+    font-weight: bolder;
 }
 
 /* Aca damos formato a los links de las html */
@@ -106,6 +109,7 @@ h4 {
 .link {
     color: #93B1A6;
     font-size: 20px;
+    font-weight: bolder;
     text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
     text-transform: uppercase;
     padding: 1vw;
@@ -131,8 +135,8 @@ h4 {
     padding-top: 2vw;
     padding-bottom: 2vw;
     color: #93B1A6;
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.0rem;
+
 }
 
 /*Aca trabajamos todo el material de bienvenida en index */
