@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+;
 
 html {
     font-size: 62.5%;
@@ -175,13 +176,17 @@ footer {
 
 .capdiv {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
+    justify-content: space-evenly;
+}
+
+.cuentos-nombres {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .capdiv img {
-    width: 550px;
+    width: 450px;
+    height: 450px;
 }
 
 .capdiv img:hover {
@@ -264,9 +269,10 @@ textarea {
 
 /* Estos son los estilos de los contenedores de los inframes de youtube */
 
-.publicidad-facebook {
+.videos-terror {
     display: flex;
-    justify-content: space-between;
+    align-content: center;
+
 }
 
 .inframeterror {
@@ -277,6 +283,10 @@ textarea {
 /* Aqui tenemos el Media Quaries para acomodar a pantalla de celular la pagina de Contacto y Cuento 2*/
 
 @media only screen and (max-width: 767px) {
+
+    html {
+        font-size: 62.5%;
+    }
 
     .titulo {
         display: flex;
@@ -313,12 +323,57 @@ textarea {
         font-size: 2rem;
     }
 
+    .bienvenida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bienvenida img {
+        width: 300px;
+    }
+
+    .texto-bienvenida {
+        font-size: 2.0rem;
+    }
+
+    .capdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .capdiv img {
         width: 300px;
+        height: 300px;
+    }
+
+    .cuentos-nombres {
+        display:  none;
     }
 
     .cuento {
         font-size: 2.5rem;
+    }
+
+    .link {
+        font-size: 2.0rem;
+    }
+
+    .link:hover {
+        color: whitesmoke;
+        font-size: 2.0rem;
+        text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+        text-transform: uppercase;
+        padding: 1vw;
+    }
+    
+
+    .videos-terror {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
     }
 
     .formulario-despedida {
