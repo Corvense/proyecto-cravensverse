@@ -194,6 +194,12 @@ footer {
     transition: opacity 0.3s ease;
 }
 
+.capdiv-cuento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Aca tenemos las imagenes del formulario de contacto, le dan el tamaño y la opacidad cuando se pasa el mouse por encima */
 
 .imgcontacto {
@@ -344,8 +350,19 @@ textarea {
     }
 
     .capdiv img {
-        width: 300px;
-        height: 300px;
+        width: 325px;
+        height: 325px;
+    }
+
+    .capdiv-cuento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .capdiv-cuento img {
+        width: 325px;
+        height: 325px;
     }
 
     .cuentos-nombres {
@@ -367,8 +384,8 @@ textarea {
     }
 
     .grillaimg img {
-        width: 300px;
-        height: 300px;
+        width: 325px;
+        height: 325px;
     }
 
 
