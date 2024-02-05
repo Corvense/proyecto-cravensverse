@@ -366,6 +366,12 @@ textarea {
         align-items: center;
     }
 
+    .grillaimg img {
+        width: 300px;
+        height: 300px;
+    }
+
+
     .link:hover {
         color: whitesmoke;
         font-size: 2.0rem;
