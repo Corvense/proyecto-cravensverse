@@ -374,10 +374,13 @@ textarea {
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        width: 100%;
+
     }
 
-
+    .videos-terror iframe {
+        max-width: 100%;
+        height: auto;
+      }
 
     .formulario-despedida {
         display: flex;
