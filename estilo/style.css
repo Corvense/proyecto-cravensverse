@@ -135,6 +135,7 @@ h4 {
     color: #93B1A6;
     font-size: 1.0rem;
     text-align: left;
+    text-align: center;
 }
 
 /*Aca trabajamos todo el material de bienvenida en index */
@@ -198,6 +199,17 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.grilla-vrenum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grilla-vrenum img {
+    width: 450px;
+    height: 450px;
 }
 
 /* Aca tenemos las imagenes del formulario de contacto, le dan el tamaño y la opacidad cuando se pasa el mouse por encima */
