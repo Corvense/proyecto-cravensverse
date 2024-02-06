@@ -376,12 +376,7 @@ textarea {
         width: 325px;
         height: 325px;
     }
-
-    .grilla-vrenum-txt {
-        display: flex;
-        flex-direction: column;
-    }
-
+    
     .cuentos-nombres {
         display: none;
     }
