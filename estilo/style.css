@@ -377,8 +377,13 @@ textarea {
         height: 325px;
     }
 
+    .grilla-vrenum-txt {
+        display: flex;
+        flex-direction: column;
+    }
+
     .cuentos-nombres {
-        display:  none;
+        display: none;
     }
 
     .cuento {
@@ -408,7 +413,7 @@ textarea {
         text-transform: uppercase;
         padding: 1vw;
     }
-    
+
 
     .videos-terror {
         display: flex;
@@ -421,7 +426,7 @@ textarea {
     .videos-terror iframe {
         max-width: 100%;
         height: auto;
-      }
+    }
 
     .formulario-despedida {
         display: flex;
