@@ -1,0 +1,135 @@
+@media only screen and (max-width: 767px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    //Aqui el MediaQ de Index
+    header {
+        .titulo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h1 {
+                font-size: 3rem;
+        
+            }
+            .videologo {
+                max-width: 100%;
+                height: auto;
+                margin: 10px;
+            }
+        }
+        .link {
+            font-size: 2.0rem;
+            &:hover {
+                color: whitesmoke;
+                font-size: 2.0rem;
+                text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+                text-transform: uppercase;
+                padding: 1vw;
+            }
+        }
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .bienvenida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 300px;
+        }
+    }
+    .texto-bienvenida {
+        font-size: 2.0rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+    .capdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 325px;
+            height: 325px;
+        }
+    }
+    .cuentos-nombres {
+        display: none;
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .videos-terror {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        iframe {
+            max-width: 100%;
+            height: auto;
+        }
+
+    }
+
+    //Aqui el MediaQ de Cuento1.html
+
+    .capdiv-cuento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 325px;
+            height: 325px;
+        }
+        .cuento {
+            font-size: 2.0rem;
+        }
+    }
+    footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        .logos {
+            margin: 10px;
+        }
+    
+    }
+
+    //Aqui el MediaQ de Galaxia.html
+    .grillaimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 325px;
+            height: 325px;
+        }
+    }
+
+    //Aqui el MediaQ de Contacto.html
+    .formulario-despedida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+        }
+        img {
+            width: 250px;
+        }
+        .formulario {
+            max-width: auto;
+        }
+    }  
+}

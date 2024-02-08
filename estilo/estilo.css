@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 62.5%;
+  }
+  header .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .titulo h1 {
+    font-size: 3rem;
+  }
+  header .titulo .videologo {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  header .link {
+    font-size: 2rem;
+  }
+  header .link:hover {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-shadow: -10px 2px 13px rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 1vw;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bienvenida img {
+    width: 300px;
+  }
+  .texto-bienvenida {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  .capdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .capdiv img {
+    width: 325px;
+    height: 325px;
+  }
+  .cuentos-nombres {
+    display: none;
+  }
+  .cuentos-nombres h3 {
+    font-size: 1.5rem;
+  }
+  .videos-terror {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .videos-terror iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  .capdiv-cuento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .capdiv-cuento img {
+    width: 325px;
+    height: 325px;
+  }
+  .capdiv-cuento .cuento {
+    font-size: 2rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .logos {
+    margin: 10px;
+  }
+  .grillaimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grillaimg img {
+    width: 325px;
+    height: 325px;
+  }
+  .formulario-despedida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formulario-despedida div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .formulario-despedida img {
+    width: 250px;
+  }
+  .formulario-despedida .formulario {
+    max-width: auto;
+  }
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Kaushan Script;
+  background-color: #040D12;
+}
+
+body h1:hover,
+body h2:hover,
+body h3:hover {
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 150px;
+  padding: 2vw;
+}
+header header li {
+  list-style: none;
+}
+header .titulo {
+  background-color: rgba(0, 0, 0, 0.849);
+  text-shadow: -10px 2px 13px rgb(0, 0, 0);
+  display: flex;
+  bottom: 10cm;
+  justify-content: center;
+}
+header .titulo h1 {
+  color: #93B1A6;
+  text-align: center;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  padding: 2vw;
+  font-weight: bolder;
+}
+header .titulo .videologo {
+  width: 17vw;
+}
+header .audio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.849);
+  background-color: rgba(0, 0, 0, 0.849);
+}
+header .listamenu {
+  background-color: #183D3D;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2vw;
+  margin: 0;
+  padding: 0;
+}
+header .listamenu .link {
+  color: #93B1A6;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: -10px 2px 13px rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 25px;
+}
+header .listamenu .link:hover {
+  color: whitesmoke;
+  font-size: 20px;
+  text-shadow: -10px 2px 13px rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding: 1vw;
+}
+
+h2 {
+  color: #93B1A6;
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  padding: 2vw;
+  font-weight: bolder;
+}
+
+.bienvenida {
+  display: flex;
+  justify-content: center;
+}
+.bienvenida img:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.texto-bienvenida {
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-top: 5vw;
+  color: #93B1A6;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h4 {
+  color: #93B1A6;
+  text-align: left;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 2vw;
+  font-weight: bolder;
+}
+
+.capdiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.capdiv .img {
+  width: 450px;
+  height: 450px;
+}
+.capdiv .img:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.cuentos-nombres {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cuentos-nombres h3 {
+  color: #93B1A6;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 2vw;
+  font-weight: bolder;
+}
+
+.videos-terror {
+  display: flex;
+  align-content: center;
+}
+.videos-terror .inframeterror {
+  padding: 50px;
+}
+
+footer {
+  background-color: #183D3D;
+  display: flex;
+  margin: 1vw;
+  justify-content: center;
+}
+footer img {
+  width: 150px;
+  padding: 2vw;
+}
+
+.capdiv-cuento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.capdiv-cuento .cuento {
+  max-width: 90%;
+  color: #93B1A6;
+  font-size: 1rem;
+  text-align: left;
+  text-align: center;
+}
+
+.grilla-vrenum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grilla-vrenum img {
+  width: 450px;
+  height: 450px;
+}
+
+.grillaimg {
+  display: flex;
+  justify-content: center;
+}
+.grillaimg img {
+  width: 550px;
+  padding: 20px;
+}
+
+.formulario-despedida {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.formulario-despedida .imgcontacto {
+  width: 550px;
+}
+.formulario-despedida .imgcontacto:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.formulario-despedida div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+.formulario-despedida .formulario {
+  max-width: 300px;
+}
+.formulario-despedida .formulario label {
+  color: #93B1A6;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 5px;
+}
+.formulario-despedida .formulario input {
+  background-color: #183D3D;
+  color: white;
+  font-size: 1.8rem;
+  margin: 5px;
+}
+.formulario-despedida .formulario textarea {
+  background-color: #183D3D;
+  color: white;
+  font-size: 1.8rem;
+}
+.formulario-despedida .botonformulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
