@@ -139,6 +139,7 @@ h4 {
     text-transform: uppercase;
     padding: 2vw;
     font-weight: bolder;
+    text-align: center;
 }
 
 .capdiv {
@@ -167,11 +168,24 @@ h4 {
     }
 }
 
+.linkarriba {
+    color: #93B1A6;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px;
+}
+
 .videos-terror {
     display: flex;
     align-content: center;
     .inframeterror {
-        padding: 50px;
+        padding: 45px;
     }
 
 }
@@ -185,21 +199,47 @@ footer {
         width: 150px;
         padding: 2vw;
     }
+    h3 {
+        color: #93B1A6;
+        text-align: center;
+        font-size: 2.0rem;
+        text-transform: uppercase;
+        padding: 2vw;
+        font-weight: bolder;
+    }
     
 }
 
 
 //Aqui comienza la anidacion de cuento1.html
+h3 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 3.0rem;
+    text-transform: uppercase;
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.cuento {
+    max-width: 90%;
+    color: #93B1A6;
+    font-size: 2.0rem;
+    text-align: center;
+}
 
 .capdiv-cuento {
     display: flex;
     flex-direction: column;
     align-items: center;
+    .imagencuento {
+        width: 450px;
+        height: 450px;
+    }
     .cuento {
         max-width: 90%;
         color: #93B1A6;
-        font-size: 1.0rem;
-        text-align: left;
+        font-size: 2.0rem;
         text-align: center;
     }
 }
