@@ -109,7 +109,8 @@
         flex-direction: column;
         align-items: center;
         img {
-            width: 375px;
+            width: 325px;
+            height: 325px;
         }
     }
     //Aqui el MediaQ de Contacto.html
@@ -118,8 +119,8 @@
         flex-direction: column;
         align-items: center;
         .imgcontacto {
-            width: 375px;
-            height: 375px;
+            width: 325px;
+            height: 325px;
         }
 
         .formulario {

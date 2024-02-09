@@ -97,7 +97,8 @@
     align-items: center;
   }
   .grillaimg img {
-    width: 375px;
+    width: 325px;
+    height: 325px;
   }
   .formulario-despedida {
     display: flex;
@@ -105,8 +106,8 @@
     align-items: center;
   }
   .formulario-despedida .imgcontacto {
-    width: 375px;
-    height: 375px;
+    width: 325px;
+    height: 325px;
   }
   .formulario-despedida .formulario {
     max-width: auto;
