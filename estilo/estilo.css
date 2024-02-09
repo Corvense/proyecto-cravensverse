@@ -105,15 +105,9 @@
     flex-direction: column;
     align-items: center;
   }
-  .formulario-despedida div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
-  }
   .formulario-despedida .imgcontacto {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
   }
   .formulario-despedida .formulario {
     max-width: auto;
@@ -399,28 +393,27 @@ h3 {
   color: #93B1A6;
   font-size: 1.5rem;
   text-align: justify;
-  margin: 5px;
 }
 .formulario-despedida .formulario input {
   background-color: #183D3D;
   color: white;
   font-size: 1.8rem;
-  margin: 5px;
 }
 .formulario-despedida .formulario textarea {
   background-color: #183D3D;
   color: white;
   font-size: 1.8rem;
 }
-.formulario-despedida .botonformulario {
+
+.botonesform {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   background-color: #183D3D;
   color: aliceblue;
 }
-.formulario-despedida .botonformulario input[type=submit],
-.formulario-despedida .botonformulario input[type=reset] {
+.botonesform input[type=submit],
+.botonesform input[type=reset] {
   margin: 0 10px;
   background-color: #3D85FF;
   color: white;
@@ -430,8 +423,8 @@ h3 {
   font-size: 1.5rem;
   transition: background-color 0.3s ease;
 }
-.formulario-despedida .botonformulario input[type=submit]:hover,
-.formulario-despedida .botonformulario input[type=reset]:hover {
+.botonesform input[type=submit]:hover,
+.botonesform input[type=reset]:hover {
   background-color: #2C63FF;
 }
 
