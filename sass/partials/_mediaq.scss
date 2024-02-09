@@ -89,7 +89,7 @@
             height: 325px;
         }
         .cuento {
-            font-size: 2.0rem;
+            font-size: #{$tamañocuento};
         }
     }
     footer {
@@ -119,16 +119,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0 10px;
-        }
         .imgcontacto {
-            width: 250px;
-            height: 250px;
+            width: 400px;
+            height: 400px;
         }
+
         .formulario {
             max-width: auto;
         }
