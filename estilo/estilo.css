@@ -97,8 +97,7 @@
     align-items: center;
   }
   .grillaimg img {
-    width: 325px;
-    height: 325px;
+    width: 375px;
   }
   .formulario-despedida {
     display: flex;
@@ -106,8 +105,8 @@
     align-items: center;
   }
   .formulario-despedida .imgcontacto {
-    width: 400px;
-    height: 400px;
+    width: 375px;
+    height: 375px;
   }
   .formulario-despedida .formulario {
     max-width: auto;
@@ -415,7 +414,7 @@ h3 {
 .botonesform input[type=submit],
 .botonesform input[type=reset] {
   margin: 0 10px;
-  background-color: #3D85FF;
+  background-color: #183D3D;
   color: white;
   border: none;
   padding: 10px 20px;
