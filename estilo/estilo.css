@@ -111,8 +111,9 @@
     align-items: center;
     margin: 0 10px;
   }
-  .formulario-despedida img {
+  .formulario-despedida .imgcontacto {
     width: 250px;
+    height: 250px;
   }
   .formulario-despedida .formulario {
     max-width: auto;
@@ -313,11 +314,20 @@ h3 {
   font-weight: bolder;
 }
 
-.cuento {
-  max-width: 90%;
+.bienvenida2 {
   color: #93B1A6;
-  font-size: 2rem;
   text-align: center;
+  font-size: 2rem;
+  padding: 2vw;
+  font-weight: bolder;
+}
+
+.cuento {
+  color: #93B1A6;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2vw;
+  font-weight: bolder;
 }
 
 .capdiv-cuento {
@@ -330,10 +340,19 @@ h3 {
   height: 450px;
 }
 .capdiv-cuento .cuento {
-  max-width: 90%;
   color: #93B1A6;
-  font-size: 2rem;
   text-align: center;
+  font-size: 2rem;
+  padding: 2vw;
+  font-weight: bolder;
+}
+
+.cuento {
+  color: #93B1A6;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2vw;
+  font-weight: bolder;
 }
 
 .grilla-vrenum {
@@ -397,6 +416,23 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  background-color: #183D3D;
+  color: aliceblue;
+}
+.formulario-despedida .botonformulario input[type=submit],
+.formulario-despedida .botonformulario input[type=reset] {
+  margin: 0 10px;
+  background-color: #3D85FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+.formulario-despedida .botonformulario input[type=submit]:hover,
+.formulario-despedida .botonformulario input[type=reset]:hover {
+  background-color: #2C63FF;
 }
 
 /*# sourceMappingURL=estilo.css.map */

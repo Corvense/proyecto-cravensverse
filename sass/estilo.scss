@@ -4,7 +4,6 @@
 @import "partials/variables";
 @import "partials/mediaq";
 
-//En lineas Generales no anide las clases que ya estaban anidadas en  otro html, tengo entendido que asi esta bien.
 //tenemos el codigo general de html y body
 
 html {
@@ -35,11 +34,11 @@ header {
         width: 150px;
         padding: 2vw;
     }
-    
+
     header li {
         list-style: none;
     }
-    
+
 
     .titulo {
         background-color: rgba(0, 0, 0, 0.849);
@@ -70,7 +69,7 @@ header {
         padding: 5px;
         color: rgba(0, 0, 0, 0.849);
         background-color: rgba(0, 0, 0, 0.849);
-    
+
     }
 
     .listamenu {
@@ -93,7 +92,8 @@ header {
             justify-content: center;
             align-content: center;
             margin: 25px;
-            &:hover{
+
+            &:hover {
                 color: whitesmoke;
                 font-size: 20px;
                 text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
@@ -116,6 +116,7 @@ h2 {
 .bienvenida {
     display: flex;
     justify-content: center;
+
     img:hover {
         opacity: 0.5;
         transition: opacity 0.3s ease;
@@ -145,9 +146,11 @@ h4 {
 .capdiv {
     display: flex;
     justify-content: space-evenly;
+
     .img {
         width: 450px;
         height: 450px;
+
         &:hover {
             opacity: 0.5;
             transition: opacity 0.3s ease;
@@ -158,6 +161,7 @@ h4 {
 .cuentos-nombres {
     display: flex;
     justify-content: space-evenly;
+
     h3 {
         color: #93B1A6;
         text-align: center;
@@ -184,6 +188,7 @@ h4 {
 .videos-terror {
     display: flex;
     align-content: center;
+
     .inframeterror {
         padding: 45px;
     }
@@ -195,10 +200,12 @@ footer {
     display: flex;
     margin: 1vw;
     justify-content: center;
+
     img {
         width: 150px;
         padding: 2vw;
     }
+
     h3 {
         color: #93B1A6;
         text-align: center;
@@ -207,7 +214,7 @@ footer {
         padding: 2vw;
         font-weight: bolder;
     }
-    
+
 }
 
 
@@ -221,40 +228,61 @@ h3 {
     font-weight: bolder;
 }
 
-.cuento {
-    max-width: 90%;
+.bienvenida2 {
     color: #93B1A6;
-    font-size: 2.0rem;
     text-align: center;
+    font-size: 2.0rem;
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.cuento {
+    color: #93B1A6;
+    text-align: center;
+    font-size: #{$tamañocuento};
+    padding: 2vw;
+    font-weight: bolder;
 }
 
 .capdiv-cuento {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     .imagencuento {
         width: 450px;
         height: 450px;
     }
+
     .cuento {
-        max-width: 90%;
         color: #93B1A6;
-        font-size: 2.0rem;
         text-align: center;
+        font-size: #{$tamañocuento};
+        padding: 2vw;
+        font-weight: bolder;
     }
 }
 
 //Aqui comienza la anidacion de cuento2.html
 
+.cuento {
+    color: #93B1A6;
+    text-align: center;
+    font-size: #{$tamañocuento};
+    padding: 2vw;
+    font-weight: bolder;
+}
+
 .grilla-vrenum {
     display: flex;
     justify-content: center;
     align-items: center;
+
     img {
         width: 450px;
         height: 450px;
     }
-    
+
 }
 
 //Aqui comienza la anidacion de galaxia.html
@@ -262,6 +290,7 @@ h3 {
 .grillaimg {
     display: flex;
     justify-content: center;
+
     img {
         width: 550px;
         padding: 20px;
@@ -274,29 +303,35 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     .imgcontacto {
         width: 550px;
+
         &:hover {
             opacity: 0.5;
             transition: opacity 0.3s ease;
         }
-    
+
     }
+
     div {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0 10px;
     }
+
     .formulario {
         max-width: 300px;
+
         label {
             color: #93B1A6;
             font-size: 1.5rem;
             text-align: justify;
             margin: 5px;
-        
+
         }
+
         input {
             background-color: #183D3D;
             color: white;
@@ -309,10 +344,31 @@ h3 {
             color: white;
             font-size: 1.8rem;
         }
+
     }
+
     .botonformulario {
         display: flex;
         justify-content: center;
         margin-top: 20px;
+        background-color: #183D3D;
+        color: aliceblue;
+
+        input[type="submit"],
+        input[type="reset"] {
+            margin: 0 10px;
+            background-color: #3D85FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #2C63FF;
+        }
     }
 }
