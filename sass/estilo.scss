@@ -117,6 +117,11 @@ h2 {
     display: flex;
     justify-content: center;
 
+    img {
+        width: 32%;
+        height: 32%;
+    }
+
     img:hover {
         opacity: 0.5;
         transition: opacity 0.3s ease;
@@ -145,17 +150,18 @@ h4 {
 
 .capdiv {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
-    .img {
-        width: 450px;
-        height: 450px;
-
-        &:hover {
-            opacity: 0.5;
-            transition: opacity 0.3s ease;
-        }
+    img {
+        width: 35vw;
+        height: 45vh;
     }
+
+    img:hover {
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+    }
+
 }
 
 .cuentos-nombres {
@@ -187,10 +193,11 @@ h4 {
 
 .videos-terror {
     display: flex;
+    justify-content: center;
     align-content: center;
 
     .inframeterror {
-        padding: 45px;
+        padding: 2%;
     }
 
 }
@@ -292,8 +299,8 @@ h3 {
     justify-content: center;
 
     img {
-        width: 550px;
-        padding: 20px;
+        width: 32%;
+        padding: 2%;
     }
 }
 
@@ -305,7 +312,8 @@ h3 {
     align-items: center;
 
     .imgcontacto {
-        width: 550px;
+        width: 32vw;
+        height: 55vh;
 
         &:hover {
             opacity: 0.5;

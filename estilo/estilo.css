@@ -51,8 +51,8 @@
     align-items: center;
   }
   .capdiv img {
-    width: 325px;
-    height: 325px;
+    width: 320px;
+    height: 320px;
   }
   .cuentos-nombres {
     display: none;
@@ -76,11 +76,12 @@
     align-items: center;
   }
   .capdiv-cuento img {
-    width: 325px;
-    height: 325px;
+    width: 320px;
+    height: 320px;
   }
   .capdiv-cuento .cuento {
     font-size: 2rem;
+    padding: 1%;
   }
   footer {
     display: flex;
@@ -97,8 +98,8 @@
     align-items: center;
   }
   .grillaimg img {
-    width: 325px;
-    height: 325px;
+    width: 320px;
+    height: 320px;
   }
   .formulario-despedida {
     display: flex;
@@ -106,8 +107,8 @@
     align-items: center;
   }
   .formulario-despedida .imgcontacto {
-    width: 325px;
-    height: 325px;
+    width: 320px;
+    height: 320px;
   }
   .formulario-despedida .formulario {
     max-width: auto;
@@ -209,6 +210,10 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.bienvenida img {
+  width: 32%;
+  height: 32%;
+}
 .bienvenida img:hover {
   opacity: 0.5;
   transition: opacity 0.3s ease;
@@ -235,13 +240,13 @@ h4 {
 
 .capdiv {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-.capdiv .img {
-  width: 450px;
-  height: 450px;
+.capdiv img {
+  width: 35vw;
+  height: 45vh;
 }
-.capdiv .img:hover {
+.capdiv img:hover {
   opacity: 0.5;
   transition: opacity 0.3s ease;
 }
@@ -274,10 +279,11 @@ h4 {
 
 .videos-terror {
   display: flex;
+  justify-content: center;
   align-content: center;
 }
 .videos-terror .inframeterror {
-  padding: 45px;
+  padding: 2%;
 }
 
 footer {
@@ -364,8 +370,8 @@ h3 {
   justify-content: center;
 }
 .grillaimg img {
-  width: 550px;
-  padding: 20px;
+  width: 32%;
+  padding: 2%;
 }
 
 .formulario-despedida {
@@ -374,7 +380,8 @@ h3 {
   align-items: center;
 }
 .formulario-despedida .imgcontacto {
-  width: 550px;
+  width: 32vw;
+  height: 55vh;
 }
 .formulario-despedida .imgcontacto:hover {
   opacity: 0.5;
