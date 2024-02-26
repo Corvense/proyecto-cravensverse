@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+;
+
+@import "partials/variables";
+@import "partials/mediaq";
+
+//tenemos el codigo general de html y body
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Kaushan Script;
+    background-color: #040D12;
+
+}
+
+body h1:hover,
+body h2:hover,
+body h3:hover {
+    color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//Aqui comienza la anidacion del index
+
+header {
+    img {
+        width: 150px;
+        padding: 2vw;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+
+    .titulo {
+        background-color: rgba(0, 0, 0, 0.849);
+        text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+        display: flex;
+        bottom: 10cm;
+        justify-content: center;
+
+        h1 {
+            color: #93B1A6;
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            padding: 2vw;
+            font-weight: bolder;
+        }
+
+        .videologo {
+            width: 17vw;
+        }
+    }
+
+    .audio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        color: rgba(0, 0, 0, 0.849);
+        background-color: rgba(0, 0, 0, 0.849);
+
+    }
+
+    .listamenu {
+        background-color: #183D3D;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 2vw;
+        margin: 0;
+        padding: 0;
+
+        .link {
+            color: #93B1A6;
+            font-size: 20px;
+            font-weight: bolder;
+            text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+            text-transform: uppercase;
+            padding: 1vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 25px;
+
+            &:hover {
+                color: whitesmoke;
+                font-size: 20px;
+                text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+                text-transform: uppercase;
+                padding: 1vw;
+            }
+        }
+    }
+}
+
+h2 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.bienvenida {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 40vw;
+        height: auto;
+    }
+
+    img:hover {
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+    }
+
+}
+
+.texto-bienvenida {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 5vw;
+    color: #93B1A6;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h4 {
+    color: #93B1A6;
+    text-align: left;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 2vw;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.capdiv {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 35vw;
+        height: auto;
+    }
+
+    img:hover {
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+    }
+
+}
+
+.cuentos-nombres {
+    display: flex;
+    justify-content: space-evenly;
+
+    h3 {
+        color: #93B1A6;
+        text-align: center;
+        font-size: 2.0rem;
+        text-transform: uppercase;
+        padding: 2vw;
+        font-weight: bolder;
+    }
+}
+
+.linkarriba {
+    color: #93B1A6;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: -10px 2px 13px rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px;
+}
+
+.videos-terror {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .inframeterror {
+        padding: 2%;
+    }
+
+}
+
+footer {
+    background-color: #183D3D;
+    display: flex;
+    margin: 1vw;
+    justify-content: center;
+
+    img {
+        width: 150px;
+        padding: 2vw;
+    }
+
+    h3 {
+        color: #93B1A6;
+        text-align: center;
+        font-size: 2.0rem;
+        text-transform: uppercase;
+        padding: 2vw;
+        font-weight: bolder;
+    }
+
+}
+
+
+//Aqui comienza la anidacion de cuento1.html
+h3 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.bienvenida2 {
+    color: #93B1A6;
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.cuento {
+    color: #93B1A6;
+    text-align: center;
+    font-size: #{$tamañocuento};
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.capdiv-cuento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .imagencuento {
+        width: 80vw;
+        height: auto;
+    }
+
+    .cuento {
+        color: #93B1A6;
+        text-align: center;
+        font-size: #{$tamañocuento};
+        padding: 2vw;
+        font-weight: bolder;
+    }
+}
+
+//Aqui comienza la anidacion de cuento2.html
+
+.cuento {
+    color: #93B1A6;
+    text-align: center;
+    font-size: #{$tamañocuento};
+    padding: 2vw;
+    font-weight: bolder;
+}
+
+.grilla-vrenum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 80vw;
+        height: auto;
+    }
+
+}
+
+//Aqui comienza la anidacion de galaxia.html
+
+.grillaimg {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 32vw;
+        height: auto;
+        padding: 2%;
+    }
+}
+
+//Aqui comienza la anidacion de contacto.html
+
+.formulario-despedida {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .imgcontacto {
+        width: 32vw;
+        height: auto;
+
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+        }
+
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }
+    .formulario {
+        max-width: 300px;
+
+        label {
+            color: #93B1A6;
+            font-size: 1.5rem;
+            text-align: justify;
+
+        }
+
+        input {
+            background-color: #183D3D;
+            color: white;
+            font-size: 1.8rem;
+        }
+
+        textarea {
+            background-color: #183D3D;
+            color: white;
+            font-size: 1.8rem;
+        }
+
+    }
+
+}
+
+.botonesform {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #183D3D;
+    color: aliceblue;
+
+    input[type="submit"],
+    input[type="reset"] {
+        margin: 0 10px;
+        background-color: #183D3D;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 1.5rem;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+        background-color: #2C63FF;
+    }
+}
