@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 @media only screen and (max-width: 960px) {
-=======
-@media only screen and (max-width: 767px) {
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
     html {
         font-size: 62.5%;
     }
 
-<<<<<<< HEAD
-=======
-    //Aqui el MediaQ de Index
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     header {
         .titulo {
             display: flex;
@@ -19,34 +11,22 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-<<<<<<< HEAD
 
             h1 {
                 font-size: 3rem;
 
             }
 
-=======
-            h1 {
-                font-size: 3rem;
-        
-            }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
             .videologo {
                 max-width: 100%;
                 height: auto;
                 margin: 10px;
             }
         }
-<<<<<<< HEAD
 
         .link {
             font-size: 2.0rem;
 
-=======
-        .link {
-            font-size: 2.0rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
             &:hover {
                 color: whitesmoke;
                 font-size: 2.0rem;
@@ -56,22 +36,15 @@
             }
         }
     }
-<<<<<<< HEAD
 
     h2 {
         font-size: 2rem;
     }
 
-=======
-    h2 {
-        font-size: 2rem;
-    }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     .bienvenida {
         display: flex;
         flex-direction: column;
         align-items: center;
-<<<<<<< HEAD
     }
 
     .texto-bienvenida {
@@ -82,37 +55,15 @@
         font-size: 2rem;
     }
 
-=======
-        img {
-            width: 300px;
-        }
-    }
-    .texto-bienvenida {
-        font-size: 2.0rem;
-    }
-    h4 {
-        font-size: 2rem;
-    }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     .capdiv {
         display: flex;
         flex-direction: column;
         align-items: center;
-<<<<<<< HEAD
     }
 
     .cuentos-nombres {
         display: none;
 
-=======
-        img {
-            width: 320px;
-            height: 320px;
-        }
-    }
-    .cuentos-nombres {
-        display: none;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
         h3 {
             font-size: 1.5rem;
         }
@@ -123,44 +74,24 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
-<<<<<<< HEAD
 
         iframe {
             max-width: 50%;
             height: auto;
             align-self: center;
-=======
-        iframe {
-            max-width: 100%;
-            height: auto;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
         }
 
     }
 
-<<<<<<< HEAD
-=======
-    //Aqui el MediaQ de Cuento1.html
-
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     .capdiv-cuento {
         display: flex;
         flex-direction: column;
         align-items: center;
-<<<<<<< HEAD
-
-=======
-        img {
-            width: 320px;
-            height: 320px;
-        }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
         .cuento {
             font-size: #{$tamañocuento};
             padding: 1%;
         }
     }
-<<<<<<< HEAD
 
     footer {
         display: flex;
@@ -174,41 +105,17 @@
 
     }
 
-=======
-    footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        .logos {
-            margin: 10px;
-        }
-    
-    }
-
-    //Aqui el MediaQ de Galaxia.html
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     .grillaimg {
         display: flex;
         flex-direction: column;
         align-items: center;
-<<<<<<< HEAD
 
     }
 
-=======
-        img {
-            width: 320px;
-            height: 320px;
-        }
-    }
-    //Aqui el MediaQ de Contacto.html
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     .formulario-despedida {
         display: flex;
         flex-direction: column;
         align-items: center;
-<<<<<<< HEAD
         .formulario {
             max-width: auto;
         }
@@ -227,15 +134,4 @@
         display: flex;
         justify-content: center;
     }    
-=======
-        .imgcontacto {
-            width: 320px;
-            height: 320px;
-        }
-
-        .formulario {
-            max-width: auto;
-        }
-    }  
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 }

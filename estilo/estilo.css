@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-<<<<<<< HEAD
 @media only screen and (max-width: 960px) {
-=======
-@media only screen and (max-width: 767px) {
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   html {
     font-size: 62.5%;
   }
@@ -40,12 +36,6 @@
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-=======
-  .bienvenida img {
-    width: 300px;
-  }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   .texto-bienvenida {
     font-size: 2rem;
   }
@@ -57,13 +47,6 @@
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-=======
-  .capdiv img {
-    width: 320px;
-    height: 320px;
-  }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   .cuentos-nombres {
     display: none;
   }
@@ -77,31 +60,17 @@
     justify-content: center;
   }
   .videos-terror iframe {
-<<<<<<< HEAD
     max-width: 50%;
     height: auto;
     align-self: center;
-=======
-    max-width: 100%;
-    height: auto;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   }
   .capdiv-cuento {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
   .capdiv-cuento .cuento {
     font-size: 1.5rem;
-=======
-  .capdiv-cuento img {
-    width: 320px;
-    height: 320px;
-  }
-  .capdiv-cuento .cuento {
-    font-size: 2rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     padding: 1%;
   }
   footer {
@@ -118,30 +87,15 @@
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-=======
-  .grillaimg img {
-    width: 320px;
-    height: 320px;
-  }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   .formulario-despedida {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-=======
-  .formulario-despedida .imgcontacto {
-    width: 320px;
-    height: 320px;
-  }
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   .formulario-despedida .formulario {
     max-width: auto;
   }
 }
-<<<<<<< HEAD
 @media only screen and (max-width: 1600px) {
   .bienvenida {
     display: flex;
@@ -153,8 +107,6 @@
     justify-content: center;
   }
 }
-=======
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 html {
   font-size: 62.5%;
 }
@@ -192,11 +144,7 @@ header .titulo {
 header .titulo h1 {
   color: #93B1A6;
   text-align: center;
-<<<<<<< HEAD
   font-size: 2.5rem;
-=======
-  font-size: 4.5rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   text-transform: uppercase;
   padding: 2vw;
   font-weight: bolder;
@@ -245,11 +193,7 @@ header .listamenu .link:hover {
 h2 {
   color: #93B1A6;
   text-align: center;
-<<<<<<< HEAD
   font-size: 2.2rem;
-=======
-  font-size: 4rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   text-transform: uppercase;
   padding: 2vw;
   font-weight: bolder;
@@ -260,13 +204,8 @@ h2 {
   justify-content: center;
 }
 .bienvenida img {
-<<<<<<< HEAD
   width: 40vw;
   height: auto;
-=======
-  width: 32%;
-  height: 32%;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 }
 .bienvenida img:hover {
   opacity: 0.5;
@@ -285,11 +224,7 @@ h2 {
 h4 {
   color: #93B1A6;
   text-align: left;
-<<<<<<< HEAD
   font-size: 1.8rem;
-=======
-  font-size: 2.5rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   text-transform: uppercase;
   padding: 2vw;
   font-weight: bolder;
@@ -302,11 +237,7 @@ h4 {
 }
 .capdiv img {
   width: 35vw;
-<<<<<<< HEAD
   height: auto;
-=======
-  height: 45vh;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 }
 .capdiv img:hover {
   opacity: 0.5;
@@ -370,11 +301,7 @@ footer h3 {
 h3 {
   color: #93B1A6;
   text-align: center;
-<<<<<<< HEAD
   font-size: 2rem;
-=======
-  font-size: 3rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   text-transform: uppercase;
   padding: 2vw;
   font-weight: bolder;
@@ -391,11 +318,7 @@ h3 {
 .cuento {
   color: #93B1A6;
   text-align: center;
-<<<<<<< HEAD
   font-size: 1.5rem;
-=======
-  font-size: 2rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   padding: 2vw;
   font-weight: bolder;
 }
@@ -406,22 +329,13 @@ h3 {
   align-items: center;
 }
 .capdiv-cuento .imagencuento {
-<<<<<<< HEAD
   width: 80vw;
   height: auto;
-=======
-  width: 450px;
-  height: 450px;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 }
 .capdiv-cuento .cuento {
   color: #93B1A6;
   text-align: center;
-<<<<<<< HEAD
   font-size: 1.5rem;
-=======
-  font-size: 2rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   padding: 2vw;
   font-weight: bolder;
 }
@@ -429,11 +343,7 @@ h3 {
 .cuento {
   color: #93B1A6;
   text-align: center;
-<<<<<<< HEAD
   font-size: 1.5rem;
-=======
-  font-size: 2rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   padding: 2vw;
   font-weight: bolder;
 }
@@ -444,13 +354,8 @@ h3 {
   align-items: center;
 }
 .grilla-vrenum img {
-<<<<<<< HEAD
   width: 80vw;
   height: auto;
-=======
-  width: 450px;
-  height: 450px;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 }
 
 .grillaimg {
@@ -458,12 +363,8 @@ h3 {
   justify-content: center;
 }
 .grillaimg img {
-<<<<<<< HEAD
   width: 32vw;
   height: auto;
-=======
-  width: 32%;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
   padding: 2%;
 }
 
@@ -474,11 +375,7 @@ h3 {
 }
 .formulario-despedida .imgcontacto {
   width: 32vw;
-<<<<<<< HEAD
   height: auto;
-=======
-  height: 55vh;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 }
 .formulario-despedida .imgcontacto:hover {
   opacity: 0.5;

@@ -4,10 +4,6 @@
 @import "partials/variables";
 @import "partials/mediaq";
 
-<<<<<<< HEAD
-=======
-//tenemos el codigo general de html y body
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
 html {
     font-size: 62.5%;
@@ -30,10 +26,6 @@ body h3:hover {
     padding: 0;
 }
 
-<<<<<<< HEAD
-=======
-//Aqui comienza la anidacion del index
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
 header {
     img {
@@ -56,11 +48,7 @@ header {
         h1 {
             color: #93B1A6;
             text-align: center;
-<<<<<<< HEAD
             font-size: 2.5rem;
-=======
-            font-size: 4.5rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
             text-transform: uppercase;
             padding: 2vw;
             font-weight: bolder;
@@ -117,11 +105,7 @@ header {
 h2 {
     color: #93B1A6;
     text-align: center;
-<<<<<<< HEAD
     font-size: 2.2rem;
-=======
-    font-size: 4.0rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     text-transform: uppercase;
     padding: 2vw;
     font-weight: bolder;
@@ -132,13 +116,8 @@ h2 {
     justify-content: center;
 
     img {
-<<<<<<< HEAD
         width: 40vw;
         height: auto;
-=======
-        width: 32%;
-        height: 32%;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     }
 
     img:hover {
@@ -160,11 +139,7 @@ h2 {
 h4 {
     color: #93B1A6;
     text-align: left;
-<<<<<<< HEAD
     font-size: 1.8rem;
-=======
-    font-size: 2.5rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     text-transform: uppercase;
     padding: 2vw;
     font-weight: bolder;
@@ -177,11 +152,7 @@ h4 {
 
     img {
         width: 35vw;
-<<<<<<< HEAD
         height: auto;
-=======
-        height: 45vh;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     }
 
     img:hover {
@@ -252,18 +223,10 @@ footer {
 }
 
 
-<<<<<<< HEAD
 h3 {
     color: #93B1A6;
     text-align: center;
     font-size: 2.0rem;
-=======
-//Aqui comienza la anidacion de cuento1.html
-h3 {
-    color: #93B1A6;
-    text-align: center;
-    font-size: 3.0rem;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     text-transform: uppercase;
     padding: 2vw;
     font-weight: bolder;
@@ -291,13 +254,8 @@ h3 {
     align-items: center;
 
     .imagencuento {
-<<<<<<< HEAD
         width: 80vw;
         height: auto;
-=======
-        width: 450px;
-        height: 450px;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     }
 
     .cuento {
@@ -309,10 +267,6 @@ h3 {
     }
 }
 
-<<<<<<< HEAD
-=======
-//Aqui comienza la anidacion de cuento2.html
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
 .cuento {
     color: #93B1A6;
@@ -328,41 +282,24 @@ h3 {
     align-items: center;
 
     img {
-<<<<<<< HEAD
         width: 80vw;
         height: auto;
-=======
-        width: 450px;
-        height: 450px;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
     }
 
 }
 
-<<<<<<< HEAD
-=======
-//Aqui comienza la anidacion de galaxia.html
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
 .grillaimg {
     display: flex;
     justify-content: center;
 
     img {
-<<<<<<< HEAD
         width: 32vw;
         height: auto;
-=======
-        width: 32%;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
         padding: 2%;
     }
 }
 
-<<<<<<< HEAD
-=======
-//Aqui comienza la anidacion de contacto.html
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
 .formulario-despedida {
     display: flex;
@@ -371,11 +308,7 @@ h3 {
 
     .imgcontacto {
         width: 32vw;
-<<<<<<< HEAD
         height: auto;
-=======
-        height: 55vh;
->>>>>>> 6d3d024e2f47001430d73608235e62af023f8698
 
         &:hover {
             opacity: 0.5;
